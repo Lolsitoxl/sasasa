@@ -1,0 +1,133 @@
+.divider-content[lks-c185] {
+    width: 100%;
+    height: 2px;
+    border-radius: 0px;
+    margin: 0;
+}
+
+.btn-semibold[lks-c185] {
+    font-family: Prelo-SemiBold, sans-serif !important;
+}
+
+label.terms[lks-c185] {
+    font-family: 'Prelo-Medium' !important;
+}
+
+.right-b-container[lks-c185] {
+    background-color: #F9FAFC !important;
+}
+
+.btn-remember-up[lks-c185] {
+    padding: 0;
+    justify-content: right;
+    font-size: 14px !important;
+    font-family: 'Prelo-SemiBold';
+}
+
+.radio-toolbar[lks-c185] {
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+    .tlk-icon>em {
+        height: 16px;
+        width: 16px;
+    }
+}
+
+.radio-toolbar[lks-c185] input[type='radio'][lks-c185] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar[lks-c185] label[lks-c185] {
+    display: inline-block;
+    width: 100%;
+    height: 99px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0 16px 0;
+    color: #009dd6;
+}
+
+.radio-toolbar[lks-c185] label[lks-c185]:hover {
+    border: 1px solid rgb(74, 74, 74);
+    cursor: pointer;
+}
+
+.radio-toolbar[lks-c185] input[type='radio'][lks-c185]:checked+label[lks-c185] {
+    background-color: #f4f6f9;
+    border: 2px solid rgb(47, 122, 191);
+}
+
+.radio-toolbar[lks-c185] input[type="radio"][lks-c185]:focus+label[lks-c185] {
+    border: 2px solid rgb(47, 122, 191);
+}
+
+
+.tlk-icon[lks-c183] {
+    float: left;
+    margin-right: 32px;
+    border-radius: 50%;
+    background-color: #f4f6f9;
+    height: 56px;
+    width: 56px;
+    padding: 14px 2px;
+}
+
+.list[lks-c183] {
+    display: flex;
+    flex-direction: column;
+}
+
+.list[lks-c183]>.item[lks-c183] {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0;
+}
+
+.item-text[lks-c183] {
+    margin: auto 0;
+    color: #0F265C;
+    font-size: 18px;
+    font-family: Prelo-Medium, sans-serif;
+    font-weight: 500;
+}
+
+.cancel-icon-box[lks-c183] {
+    padding: 0;
+    display: flex;
+}
+
+.cancel-icon-box[lks-c183]>.icon-cancel[lks-c183] {
+    width: 55px;
+    height: 55px;
+}
+
+
+.input[lks-c166] {
+    position: relative;
+}
+
+.input-group-append[lks-c166] {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+input.font-dot[lks-c166] {
+    font-family: dotsfont !important;
+    font-size: 6px;
+}
+
+input.font-prelo[lks-c166] {
+    font-family: Prelo-Medium, sans-serif !important;
+    font-size: 14px;
+}
+
+input[lks-c166]::placeholder {
+    font-size: 14px;
+}
